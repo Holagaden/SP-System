@@ -1,0 +1,119 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: hsl(256, 94%, 35%); /* removes visible white edges */
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* LEFT SIDE */
+.left {
+  position: absolute;
+  width: 828px;
+  height: 100vh;
+  background: #050A24;
+  color: white;
+}
+
+.left h1 {
+  position: absolute;
+  top: 418px;
+  left: 220px;
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.left p {
+  position: absolute;
+  top: 866px;
+  left: 74px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.logo {
+  position: absolute;
+  top: 21px;
+  left: 19px;
+  height: 180px;
+  width: 180px;
+  
+}
+
+/* RIGHT SIDE */
+.right {
+  position: absolute;
+  left: 828px;
+  width: calc(100vw - 828px);
+  height: 100vh;
+  background: url("cityhall2.png") center/cover no-repeat;
+}
+
+/* LOGIN CARD */
+.login-box {
+  position: absolute;
+  top: 233px;
+  left: 1200px;
+  width: 465px;
+  height: 558px;
+  background: #424242;
+  opacity: 0.9;
+  border-radius: 50px;
+  padding: 40px;
+  color: white;
+}
+
+.login-box h2 {
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.input-group input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  background: #515151;
+  color: white;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background: #1570EF;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #0095FF;
+  text-decoration: none;
+}

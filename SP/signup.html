@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<link rel="stylesheet" href="signup.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="signup-box">
+<h2>Create your account</h2>
+
+<form action="signup.php" method="POST">
+<div class="input-group">
+<label>Username</label>
+<input type="text" name="username" placeholder="Create username" required>
+</div>
+
+<div class="input-group">
+<label>Password</label>
+<input type="password" name="password" placeholder="Create your password" required>
+</div>
+
+<!-- ROLE SELECT DROPDOWN ADDED HERE -->
+<div class="input-group">
+<label>Role</label>
+<select name="role" required>
+<option value="">Choose your role</option>
+<option value="Admin">Admin</option>
+<option value="Receiving">Receiving</option>
+<option value="Scanning">Scanning</option>
+<option value="For Agenda">For Agenda</option>
+<option value="Legislative Document Request">Legislative Document Request</option>
+<option value="Administrative Order">Administrative Order</option>
+<option value="For Action">For Action</option>
+</select>
+
+</div>
+
+<button type="submit" class="signup-btn">Sign up</button>
+</form>
+
+<div class="login-link">
+Already have an account? <a href="login.html">Login</a>
+</div>
+
+</div>
+
+</body>
+</html>
