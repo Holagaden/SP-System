@@ -21,7 +21,7 @@ body {
   position: absolute;
   width: 828px;
   height: 100vh;
-  background: #050A24;
+  background: radial-gradient(ellipse at top left, rgba(5, 10, 36, 0.95), rgba(20, 30, 80, 0.8), #050A24);  /* Shiny gradient overlay - Original Option 1 */
   color: white;
 }
 
